@@ -1,0 +1,888 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "voyagem4",
+      "title": "VoyageM4",
+      "styling": {
+        "primaryColor": "#3a6686",
+        "secondaryColor": "#f14555",
+        "successColor": "#08af83",
+        "infoColor": "#d42764",
+        "warningColor": "#fbba34",
+        "dangerColor": "#fe5925",
+        "mainFont": "Roboto",
+        "display1Font": "Oswald",
+        "display1Size": 6.875,
+        "display2Font": "Oswald",
+        "display2Size": 4.25,
+        "display5Font": "Oswald",
+        "display5Size": 2.75,
+        "display7Font": "Roboto",
+        "display7Size": 1.5,
+        "display4Font": "Roboto",
+        "display4Size": 1.125,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Excursion to Italy",
+      "nameSelectPreset": "excursion_to_Italy",
+      "presetSourceTheme": "voyagem4",
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Excursion to Italy",
+    "versionFirst": "5.6.11",
+    "siteFonts": [
+      {
+        "css": "'Oswald', sans-serif",
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
+      },
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "imageResize": true,
+    "chatbutton": {},
+    "favicon": "@PROJECT_PATH@/assets/images/hafsa-logo-2-kopyas-103.svg",
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "PWA": {
+      "enabled": true,
+      "name": "Excursion to Italy",
+      "icon": "@PROJECT_PATH@/assets/images/hafsa-logo-2-kopyas-102.svg",
+      "themeColor": "#3a6686"
+    },
+    "mbrsiteDomain": "a0pueebrrz",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "gdpr": false,
+    "pwa-switcher": true,
+    "mcSmartCart": {
+      "currency": "USD"
+    },
+    "uniqCompNum": 3,
+    "versionPublish": "5.6.11"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-section-title": {
+              "margin-bottom": "25px",
+              "color": "#3a6686"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "88px",
+              "font-weight": "400",
+              "color": "#2c3945"
+            },
+            ".image": {
+              "position": "relative",
+              "z-index": "0",
+              "top": "-50px",
+              "img": {
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "width": "100%",
+                "max-height": "410px",
+                "object-fit": "cover"
+              }
+            },
+            ".mbr-gallery-filter": {
+              "text-align": "left",
+              "padding": "0 20px",
+              "border-bottom": "1px solid @borderColor",
+              ".btn": {
+                "padding": "0 20px 40px",
+                "margin": "0",
+                "margin-right": "35px",
+                "color": "@tagsColor !important",
+                "font-weight": "700",
+                "text-align": "left",
+                "background": "transparent !important",
+                "position": "relative",
+                "border": "none",
+                "min-width": "auto"
+              },
+              "ul": {
+                "display": "block",
+                "li": {
+                  "position": "relative",
+                  "padding": "0"
+                }
+              },
+              "li:not(.active) .btn.active:after, li.active .btn:not(.active):after, .mbr-gallery-filter .btn:hover:after": {
+                "content": "\"\"",
+                "position": "absolute",
+                "left": "0",
+                "right": "auto",
+                "width": "100%",
+                "bottom": "0",
+                "height": "11px",
+                "background-color": "@activeTabColor",
+                "transition": "all 0.3s ease"
+              }
+            },
+            ".mbr-gallery-row": {
+              "margin-top": "50px"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem",
+              "border-radius": "4px"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover::before": {
+              "opacity": "@overlayOpacity !important"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all .3s",
+              "position": "absolute",
+              "display": "block",
+              "font-weight": "700",
+              "width": "100%",
+              "bottom": "30px",
+              "left": "0",
+              "text-align": "center",
+              "padding": "0 1rem",
+              "color": "#fff",
+              "background": "transparent"
+            },
+            "& when (@showIcon)": {
+              ".icon-focus": {
+                "transition": "all .3s",
+                "top": "30%",
+                "width": "48px",
+                "height": "48px",
+                "transform": "translateY(-30%)"
+              }
+            },
+            "& when not (@showIcon)": {
+              ".icon-focus": {
+                "display": "none"
+              }
+            },
+            ".mbr-gallery-item": {
+              "> div img, div:before": {
+                "border-radius": "4px",
+                "height": "255px"
+              },
+              "> div": {
+                "transition": "all .3s",
+                "border-radius": "4px"
+              },
+              "&:hover": {
+                "> div": {
+                  "transform": "scale(0.95)"
+                }
+              }
+            },
+            ".carousel-control-prev": {
+              ".mbri-left:before": {
+                "content": "\"\\e90a\""
+              }
+            },
+            ".carousel-control-next": {
+              ".mbri-right:before": {
+                "content": "\"\\e909\""
+              }
+            },
+            ".modal-body a.close": {
+              "border-radius": "0",
+              "font-size": "32px",
+              "top": "0",
+              "right": "0",
+              "height": "70px",
+              "width": "70px",
+              "line-height": "70px"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-subtitle": {
+                "margin-bottom": "20px",
+                "text-align": "center"
+              },
+              ".mbr-section-title": {
+                "text-align": "center"
+              },
+              ".image": {
+                "top": "auto",
+                "height": "420px"
+              },
+              ".mbr-gallery-filter": {
+                ".btn": {
+                  "padding": "0 0 22px"
+                },
+                "ul li": {
+                  "margin-bottom": "10px"
+                }
+              },
+              ".mbr-gallery-item": {
+                "> div img, div:before": {
+                  "height": "auto",
+                  "border-radius": "3px"
+                },
+                "> div": {
+                  "border-radius": "3px"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image": {
+                "height": "290px"
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel extGallery gallery1\" group=\"Sliders & Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" inline>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\" checked>\n        <header>Filter</header>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#3a6686\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#08af83\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#cce4f0\">\n        <header>Gallery</header>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#003d59\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\" checked>\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">GALLERY</h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur voluptatem pariatur iure, ad, hic voluptas in. Voluptatibus rerum laudantium, sequi earum, et totam modi! Reprehenderit perferendis non sint officiis est.</h4>\n            </div>\n            <div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n                <div class=\"image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/italy8-1200x800.jpg\" alt title>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"gallery__wrap container\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-filter mbr-gallery-show-bullets></div>\n    </div>\n</section>",
+          "_cid": "s14xqCLrIp",
+          "_anchor": "gallery1-c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_sourceTheme": "voyagem4",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy14-1-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy14-1-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy12-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy12-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy15-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy15-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy16-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy16-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy17-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy17-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy18-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy18-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy19-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy19-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/italy20-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/italy20-1200x800-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "visible",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "margin-top": "20px",
+              "margin-bottom": "50px"
+            },
+            ".img__wrap": {
+              "position": "absolute",
+              "right": "0",
+              "width": "33%",
+              "top": "-12%",
+              "z-index": "1",
+              "& when (@reverse)": {
+                "right": "auto",
+                "left": "0"
+              },
+              ".image": {
+                "position": "relative",
+                "width": "100%",
+                "img": {
+                  "position": "absolute",
+                  "top": "0",
+                  "left": "0",
+                  "width": "100%",
+                  "height": "(@heightImage * 1px)",
+                  "max-width": "100%",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".img__wrap": {
+                ".image img": {
+                  "height": "auto"
+                }
+              },
+              ".mbr-text": {
+                "margin-bottom": "28px"
+              }
+            },
+            "@media (max-width: 575px)": {
+              ".img__wrap": {
+                "top": "-110px"
+              },
+              "padding-top": "10rem"
+            },
+            "@media (max-width: 400px)": {
+              ".img__wrap": {
+                "top": "-60px"
+              },
+              "padding-top": "8rem"
+            },
+            ".mbr-section-title": {
+              "color": "#3a6686"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#3a6686"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#2c3945"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\" checked>\n        <input type=\"range\" inline title=\"Height Image\" name=\"heightImage\" min=\"300\" max=\"750\" step=\"10\" value=\"750\" condition=\"showImage\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div class=\"img__wrap\" mbr-if=\"showImage\">\n        <div class=\"image\">\n            <img src=\"@PROJECT_PATH@/assets/images/italy2-1-400x600.jpg\" alt title>\n        </div>\n    </div>\n    \n    <div class=\"container\">\n        <div class=\"row align-left\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n           <div class=\"col-lg-8 col-md-6 offset-md-0 col-sm-7 offset-sm-1 col-12\" mbr-if=\"showSubtitle\">\n                <h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-subtitle\">HOW WE</h3>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg-7 col-md-6 col-sm-7 offset-sm-1' : showSubtitle, 'col-sm-8' : !showSubtitle}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">DO TOURS?</h3>\n                <div class=\"row\">\n                    <div class=\"col-lg-8 col-10 col-sm-12 offset-sm-0 offset-1\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis debitis, illo ex cupiditate error laboriosam earum repellendus amet facere fugiat, similique, et aut obcaecati quisquam beatae. Odit, explicabo, excepturi. Quae.</p>\n                        <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"#\" data-app-placeholder=\"Type Text\">Look</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s143j43MJL",
+          "_anchor": "content2-9",
+          "_sourceTheme": "voyagem4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "margin-top": "20px",
+              "margin-bottom": "50px",
+              "padding-right": "70px"
+            },
+            ".title__block": {
+              "padding-left": "96px",
+              "margin-bottom": "20px",
+              "& when not (@showText)": {
+                "margin-bottom": "120px"
+              },
+              ".mbr-section-title": {
+                "display": "inline-block",
+                "margin-bottom": "25px"
+              }
+            },
+            ".figure when (@showFigure)": {
+              "display": "block",
+              "position": "relative",
+              "z-index": "1",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "z-index": "-1",
+                "width": "119px",
+                "height": "119px",
+                "bottom": "-90px",
+                "right": "-95px",
+                "background-image": "url(@figure)",
+                "background-repeat": "no-repeat",
+                "background-size": "cover"
+              }
+            },
+            ".slide-content": {
+              "justify-content": "center",
+              "text-align": "left",
+              ".media-container-row": {
+                "flex-grow": "1"
+              },
+              ".slider__item": {
+                "position": "relative",
+                "border-radius": "4px",
+                "border": "2px solid transparent",
+                "opacity": "1",
+                "transition": "border .3s linear",
+                "&:hover": {
+                  "border": "2px solid @successColor",
+                  ".slider__content": {
+                    "border": "1px solid transparent"
+                  }
+                },
+                ".slider__image": {
+                  "width": "100%",
+                  "img": {
+                    "border-radius": "4px 4px 0 0",
+                    "width": "100%",
+                    "height": "100%",
+                    "object-fit": "cover"
+                  }
+                }
+              }
+            },
+            ".slider__content": {
+              "display": "flex",
+              "flex-direction": "column",
+              "width": "100%",
+              "min-height": "320px",
+              "position": "relative",
+              "padding": "30px 40px 32px",
+              "border-radius": "0 0 4px 4px",
+              "border": "1px solid @borderColor",
+              "border-top": "1px solid transparent",
+              "transition": "border .3s",
+              "& when not (@cardImage)": {
+                "border-top": "1px solid @borderColor",
+                "border-radius": "4px"
+              },
+              ".slider__content-wrap": {
+                "margin-bottom": "38px",
+                "min-height": "210px"
+              },
+              ".slider__subtitle": {
+                "margin-bottom": "8px",
+                "color": "@successColor"
+              },
+              ".slider__title": {
+                "margin-bottom": "13px"
+              },
+              ".slider__text": {
+                "margin-bottom": "0"
+              }
+            },
+            ".link": {
+              "display": "block",
+              "margin-bottom": "0",
+              "white-space": "nowrap",
+              "a": {
+                "font-weight": "700"
+              },
+              "span": {
+                "display": "inline-block !important",
+                "transition": "all 0.3s ease",
+                "margin-left": "13px"
+              },
+              "&:hover span": {
+                "transform": "translateX(9px)"
+              }
+            },
+            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
+              "display": "flex"
+            },
+            ".mbr-iconfont": {
+              "transition": "0.3s",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".cloneditem-1, .cloneditem-2, .cloneditem-3, .cloneditem-4, .cloneditem-5": {
+              "display": "none"
+            },
+            ".col-lg-15": {
+              "flex": "0 0 100%",
+              "max-width": "100%",
+              "position": "relative",
+              "min-height": "1px",
+              "padding-right": "10px",
+              "padding-left": "10px",
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".col-lg-15": {
+                "flex": "0 0 20%",
+                "max-width": "20%",
+                "width": "20%"
+              },
+              ".carousel-inner": {
+                "padding-bottom": "3px",
+                "&.slides2": {
+                  "> .carousel-item.active.carousel-item-right, > .carousel-item.carousel-item-next": {
+                    "left": "0",
+                    "transform": "translate3d(50%, 0, 0)"
+                  },
+                  "> .carousel-item.active.carousel-item-left, > .carousel-item.carousel-item-prev": {
+                    "left": "0",
+                    "transform": "translate3d(-50%, 0, 0)"
+                  },
+                  "> .carousel-item.carousel-item-left, > .carousel-item.carousel-item-prev.carousel-item-right, > .carousel-item.active": {
+                    "left": "0",
+                    "transform": "translate3d(0, 0, 0)"
+                  },
+                  ".cloneditem-1, .cloneditem-2, .cloneditem-3": {
+                    "display": "block"
+                  }
+                },
+                "&.slides3": {
+                  "> .carousel-item.active.carousel-item-right, > .carousel-item.carousel-item-next": {
+                    "left": "0",
+                    "transform": "translate3d(33.333333%, 0, 0)"
+                  },
+                  "> .carousel-item.active.carousel-item-left, > .carousel-item.carousel-item-prev": {
+                    "left": "0",
+                    "transform": "translate3d(-33.333333%, 0, 0)"
+                  },
+                  "> .carousel-item.carousel-item-left, > .carousel-item.carousel-item-prev.carousel-item-right, > .carousel-item.active": {
+                    "left": "0",
+                    "transform": "translate3d(0, 0, 0)"
+                  },
+                  ".cloneditem-1, .cloneditem-2, .cloneditem-3": {
+                    "display": "block"
+                  }
+                }
+              }
+            },
+            "@media (max-width: 1200px)": {
+              ".carousel-inner .carousel-item .cloneditem-2": {
+                "display": "none !important"
+              }
+            },
+            "@media (max-width: 1440px)": {
+              ".figure when (@showFigure)": {
+                "&:before": {
+                  "width": "99px",
+                  "height": "99px"
+                }
+              },
+              ".slider__content .slider__title": {
+                "font-size": "25px",
+                "line-height": "30px"
+              },
+              ".slider__content": {
+                "min-height": "235px"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".title__block": {
+                "& when not (@showText)": {
+                  "margin-bottom": "50px"
+                },
+                ".mbr-section-title": {
+                  "margin-bottom": "0"
+                },
+                "padding-left": "63px"
+              },
+              ".figure when (@showFigure)": {
+                "&:before": {
+                  "display": "none"
+                }
+              },
+              ".mbr-text": {
+                "padding-right": "0",
+                "margin-bottom": "10px"
+              },
+              ".carousel-item .slider__item": {
+                "margin-right": "0"
+              },
+              ".slider__content": {
+                "padding": "18px 18px 22px",
+                "min-height": "197px"
+              },
+              ".carousel-controls": {
+                ".carousel-control-next": {
+                  "right": "-35px",
+                  "bottom": "auto",
+                  "top": "44%"
+                },
+                ".carousel-control-prev": {
+                  "left": "-35px",
+                  "bottom": "auto",
+                  "top": "44%"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-controls": {
+                "display": "none"
+              }
+            },
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "34%",
+              "@media (max-width: 1280px)": {
+                "min-width": "50%"
+              },
+              "@media (max-width: 768px)": {
+                "min-width": "100%",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important"
+              }
+            },
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button": {
+              "top": "50%",
+              "position": "absolute",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "outline": "none",
+              "transition": "all .3s",
+              "border-radius": "50%",
+              "border": "2px solid @arrowsColor",
+              "background-color": "transparent",
+              "span": {
+                "color": "@arrowsColor",
+                "font-size": "18px"
+              },
+              "& when not (@arrows)": {
+                "display": "none"
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
+              },
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
+              },
+              "&:hover": {
+                ".mobi-mbri-left": {
+                  "transform": "translateX(-5px)"
+                },
+                ".mobi-mbri-right": {
+                  "transform": "translateX(5px)"
+                }
+              },
+              "&.embla__button--next, &.embla__button--prev": {
+                "opacity": "1",
+                "width": "44px",
+                "height": "44px"
+              },
+              "&.embla__button--prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.embla__button--next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "89%",
+                "left": "80%"
+              }
+            },
+            ".embla": {
+              "position": "relative",
+              "width": "100%"
+            },
+            ".embla__viewport": {
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            ".embla__viewport.is-draggable": {
+              "cursor": "grab"
+            },
+            ".embla__viewport.is-dragging": {
+              "cursor": "grabbing"
+            },
+            ".embla__container": {
+              "display": "flex",
+              "user-select": "none",
+              "-webkit-touch-callout": "none",
+              "-khtml-user-select": "none",
+              "-webkit-tap-highlight-color": "transparent",
+              "@media (max-width: 768px)": {
+                "margin-left": "1.3rem",
+                "margin-right": "1.3rem",
+                "& .embla__slide:first-child": {
+                  "margin-left": "2rem !important"
+                },
+                "& .embla__slide:last-child": {
+                  "margin-right": "2rem !important"
+                }
+              }
+            }
+          },
+          "_name": "slider2",
+          "_sourceTheme": "voyagem4",
+          "_customHTML": "<section class=\"slider2 voyagem4_slider2 mbr-embla\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"embla\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/compass.svg\" condition=\"showFigure && showTitle\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"checkbox\" title=\"Loop\" name=\"loop\">\n\t\t<input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n\t\t<input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n\t\t<input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\">\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"cardSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Buttons\" name=\"cardButtons\" checked>\n\t\t<input type=\"color\" title=\"Border Color\" value=\"#ddebe9\" name=\"borderColor\">\n\t\t<input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"2.5\">\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#003d59\" condition=\"showArrows\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@THEME_PATH@/components/_images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n\n\t</mbr-parameters>\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tPOPULAR\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-11 offset-lg-1 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\t\t\tGROUP TOURS\n\t\t\t\t</h3>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-7 col-12\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Quis debitis, illo ex cupiditate\n\t\t\t\t\t\t\terror laboriosam earum\n\t\t\t\t\t\t\trepellendus amet facere fugiat, similique, et aut obcaecati quisquam beatae. Odit,\n\t\t\t\t\t\t\texplicabo, excepturi. Quae.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"start\" data-contain-scroll=\"trimSnaps\">\n\t\t<div class=\"embla__viewport container-fluid\">\n\t\t\t<div class=\"embla__container\">\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/voyage8.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t7 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\t\tRome, Venice, Milan, Florence\n\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tItaly\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/voyage9.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\t\tBarcelona, Valencia, Madrid\n\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tSpain\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/voyage10.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\t\tBerlin, Munich, Hamburg\n\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tGermany\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/voyage11.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t6 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\t\tOslo, Bergen, Trondheim\n\t\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\t\tNorway\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<button class=\"embla__button embla__button--prev\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t</button>\n\t\t<button class=\"embla__button embla__button--next\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t</button>\n\t</div>\n\n\n</section>",
+          "_cid": "tbz0uWIfbw",
+          "_anchor": "slider2-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer02",
+          "_sourceTheme": "stackm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2 stackm5\" group=\"Footers\" global mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/stackm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2022 Hafsa - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_cid": "tdOBhtg87O",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer02-2"
+        }
+      ]
+    }
+  }
+}
